@@ -1,0 +1,41 @@
+html, body {
+  resize: none;
+  overflow: hidden;
+}
+
+/* background for all forms */
+.form-background {
+  position: absolute;
+  width: 750px;
+  height: 630px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(233.79deg, #99C1FD 10.6%, #F5F6F0 97.43%);
+}
+
+/* Rail Cargo Solutions - main */
+.main-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 748px;
+  height: 156px;
+  font-family: 'Hanson';
+  font-size: 30pt;
+  line-height: 1.1;
+  color: #000000;
+}
+
+.choose-role-container {
+  position: relative;
+  text-align: center;
+}
+
+.choose-role {
+  font-size: 20pt;
+}
+
+.role-select, .submit-button {
+  width: 150px;
+  margin: 5px auto;
+}
